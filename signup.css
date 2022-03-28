@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background-image: url(guitar1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo {
+    width: 100%;
+    color: black;
+    
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFF;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+li {
+    font-family: montserrat;
+    list-style: none;
+    color: #FFFF;
+    margin: 15px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.cajita{
+    
+    align-items: center;
+    justify-content: center;
+}
+.formu {
+    display: flex;
+    width: 320px;
+    height: 420px;
+    margin: 100px;
+    background: rgba(75, 71, 71, 0.467);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    align-self: center;
+    flex-direction: column;
+  }  
+.formu h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+  }    
+.formu label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+  }
+  
+.formu input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+    
+  }
+  
+.formu input[type="text"], .formu input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+    
+  }
+  
+.formu input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #100325;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+  
+.formu input[type="submit"]:hover {
+    cursor: pointer;
+    
+    color: #000;
+  }
+  
+.formu a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+  
+.formu a:hover {
+  color: #fff;
+}
+
+.error-icon{
+    
+    color: #dc3545;
+}
+.error {
+  color: #dc3545;
+  font-size: 12px;
+  display:none;
+}
+
+.formu .shake{
+  animation: shake 0.3s ease-in-out;
+}
+@keyframes shake {
+  0%, 100%{
+    margin-left: 0px;
+  }
+  20%, 80%{
+    margin-left: -12px;
+  }
+  40%, 60%{
+    margin-left: 12px;
+  }
+}
+form .field .error{
+  display: none;
+}
+form .field.shake .error,
+form .field.error .error{
+  display: block;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
